@@ -1,4 +1,8 @@
 package com.example.lakeSide_Hotel.repository;
 
-public interface BookedRoomRepository {
+import com.example.lakeSide_Hotel.model.Room;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BookedRoomRepository  {
+
 }

@@ -38,9 +38,6 @@ public class BookedRoom {
     @JoinColumn(name = "room_id") // joincolunm là khóa ngoại của bảng, tham chiếu tới bảng khác
     private Room room;
 
-    public void setRoom(Room room) {
-        this.room = room;
-    }
 
     public void calculateTotalOfGuest() {
         this.TotalOfGuest = this.NumOfChildren + this.NumOfAdults;
